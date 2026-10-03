@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "535154203928",
+    "project_id": "easy-plus-provider",
+    "storage_bucket": "easy-plus-provider.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535154203928:android:df04b4fb784a96d900126d",
+        "android_client_info": {
+          "package_name": "com.kayan.easyPlusServiceProvider"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtG_g9Pek95MyIX05OIFGQjt8loDJGn-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

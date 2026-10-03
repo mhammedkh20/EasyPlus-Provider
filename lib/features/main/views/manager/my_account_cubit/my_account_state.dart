@@ -1,0 +1,19 @@
+part of 'my_account_cubit.dart';
+
+@immutable
+abstract class MyAccountState {}
+
+class MyAccountInitial extends MyAccountState {}
+
+// ! opration Update User
+class UpdateUserLoading extends MyAccountState {}
+
+class UpdateUserSuccess extends MyAccountState {
+  final String message;
+  UpdateUserSuccess({required this.message});
+}
+
+class UpdateUserFailed extends MyAccountState {
+  final String message;
+  UpdateUserFailed({required this.message});
+}
